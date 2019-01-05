@@ -107,12 +107,6 @@ def compute_transit_metric(event):
     write_results(tceDict, event['s3_output_bucket'])
 
 def handler(event, context):
-    print(event['s3_output_bucket'])
-    print(event['fits_s3_key'])
-    print(event['fits_s3_bucket'])
-    print(event['planet_number'])
-    print(event['sector'])
-
     download_map()
     download_dvt(event)
     compute_transit_metric(event)
