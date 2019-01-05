@@ -1,5 +1,7 @@
 # LPP transit metric code ported to Python from the DR25 Kepler Robovetter.
 
+_Authors: Susan Mullally & Arfon Smith_
+
 This repository builds a AWS Lambda function that can be used to calculate LPP transit metrics for TESS Candidate Events (TCEs).
 
 Build the astropy, lpproj, numpy, scipy, and scikit-learn packages and strip them down to run in Lambda
@@ -41,6 +43,7 @@ import numpy as np
 mapfilename = 'combMapDR25AugustMapDV_6574.mat'
 mapfilepath = '/tmp/combMapDR25AugustMapDV_6574.mat'
 columns = ['id','planetNum','sector','period','tzero','depth','dur','mes','normTLpp','rawTLpp']
+
 ...
 ...
 ...
