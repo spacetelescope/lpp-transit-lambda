@@ -1,6 +1,6 @@
 # LPP transit metric code ported to Python from the DR25 Kepler Robovetter.
 
-_Authors: Susan Mullally & Arfon Smith_
+_Authors: [Susan Mullally](https://github.com/mustaric/) & [Arfon Smith](https://github.com/arfon/)_
 
 This repository builds a AWS Lambda function that can be used to calculate LPP transit metrics for TESS Candidate Events (TCEs).
 
