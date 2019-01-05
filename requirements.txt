@@ -1,0 +1,4 @@
+astropy
+requests
+scikit-learn
+lpproj
