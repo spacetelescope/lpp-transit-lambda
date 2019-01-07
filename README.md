@@ -4,7 +4,7 @@ _Authors: [Susan Mullally](https://github.com/mustaric/) & [Arfon Smith](https:/
 
 This repository builds a AWS Lambda function that can be used to calculate LPP transit metrics for TESS Candidate Events (TCEs).
 
-Build the astropy, lpproj, numpy, scipy, and scikit-learn packages and strip them down to run in Lambda
+More information about this methodolody is available in [Thompson et al. (2015)](https://ui.adsabs.harvard.edu/#abs/2015ApJ...812...46T/abstract) [10.1088/0004-637X/812/1/46](https://doi.org/10.1088/0004-637X/812/1/46)
 
 This repository contains a `build.sh` script that's intended to be run in an Amazon Linux docker container (i.e. AWS Lambda), and builds astropy, lpproj, numpy, scipy, and scikit-learn to calculate the LPP transit metrics.
 
